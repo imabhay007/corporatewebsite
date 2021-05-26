@@ -1,0 +1,272 @@
+/** FOR MEDIUM DEVICE **/
+@media(min-width: 768px) and (max-width: 991px){
+       #footer-link-text{
+       	font-size: 1.2em;
+       }
+
+}
+
+/*** for small devices **/
+@media(max-width: 767px){
+	.services-tile{
+		text-align: center;
+	}
+	#service-tile{
+		margin-bottom: 0;
+	}
+}
+
+/**  FOR extra SMALL DEVICES **/
+@media(max-width: 576px){
+	
+}
+
+
+body{
+	background-color: black;
+	color: white;
+}
+
+/* NAVBAR */
+.brand-logo{
+	font-size: 2.5em;
+	font-family: 'Odibee Sans', cursive;
+}
+.brand-logo:hover{
+	opacity: .7;
+}
+.navbar-content-tile{
+	text-align: center;
+	font-family: 'Teko', sans-serif;
+	font-size: 1.7em;
+}
+.navbar-content-tile:hover{
+	opacity: .7;
+}
+/* main heading */
+#main-heading{
+	color: white;
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	font-family:'Righteous', cursive;
+	font-size: 3.5em;
+}
+
+/*carousel*/
+
+.carousel-tile{
+	margin-bottom: 150px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+#grid-tile-row-div{
+	padding-bottom: 60px;
+}
+.column-tile{
+	padding:0 30px 30px 30px;
+}
+.column-tile p{
+	font-size: 1.5em;
+	font-family: 'Source Code Pro', monospace;
+	text-align: left;
+}
+
+.button-tile{
+	padding:11px 25px 11px 25px;
+	border-radius: 7px;
+	border:0;
+}
+.button-tile a{
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #000;
+	font-family: 'Teko', sans-serif;
+}
+.button-tile:hover{
+	opacity: .7;
+}
+.svg-container{
+	margin-bottom: 100px;
+}
+ /* Branding */
+ #trusted-div{
+ 	margin-bottom: 100px;	
+ }
+ #trusted-div h3{
+ 	text-align: center;
+ 	font-size: 1.9em;
+ 	font-family: 'Source Code Pro', monospace;
+ }
+ .brand-div{
+	margin-bottom: 100px;
+}
+ .brand-svg-img{
+ 	width: 150px;
+ 	margin-left: 34%;
+}
+
+#contact-p{
+	font-size: 2.1em;
+	font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+#button-div{
+	margin-top: 50px;
+}
+.contact-button{
+	padding: 11px 25px 11px 25px;
+	border-radius: 7px;
+	border:0;
+}
+.contact-button:hover{
+	opacity: .7;
+}
+.contact-button a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.3em;
+	font-family: 'Teko', sans-serif;
+}
+.contact-div-tile{
+	margin-bottom: 250px;
+}
+
+/****** featured projects *****/
+#Featured-heading{
+	font-family: 'Source Code Pro', monospace;
+	font-size: 2.1em;
+	opacity: .7;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.branding-h_2{
+	font-family: 'Source Code Pro', monospace;
+	font-size: 1.4em;
+	margin-top: 30px;
+}
+.work-link-tile{
+	text-decoration: none;
+}
+.work-tile:hover{
+    opacity: .7;
+}
+#all-work-link{
+	font-size: 1.5em;
+}
+#all-work-link:hover{
+	opacity: .7;
+}
+.all-work-link{
+    margin-top: 50px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+
+/*** BOOK CALL **/
+.book-call-div{
+	margin-top: 250px;
+}
+#book-call{
+	margin-top: 40px;
+	margin-bottom: 200px;
+}
+#book-call-heading{
+	font-size: 4.1em;
+}
+
+/*** FOOTER **/
+#copyright{
+	margin-top: 40px;
+	margin-bottom: 10px;
+	font-style: italic;
+	font-size: 1.5em;
+}
+.footer-links a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.6em;
+  font-family: 'Source Code Pro', monospace;
+}
+.footer-links a:hover{
+	opacity: .7;
+}
+.horizontal-row{
+	margin-top: 25px;
+}
+
+/*** WORK PAGE ***/
+
+.work-brand-tiles{
+	margin-bottom: 70px;
+	padding: 
+}
+
+/** SERVICES **/
+#main-heading-div{
+	margin-bottom: 120px;
+	margin-top: 150px;
+}
+#main-heading-h1{
+	text-align: center;
+    font-family:'Righteous', cursive;
+	font-size: 3.5em;
+	margin-bottom: 35px;
+}
+#main-heading-p{
+	text-align: center;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 1.3em;
+}
+
+.services-tile{
+	margin-bottom: 70px;
+}
+.services-tile p{
+	font-size: 1.2em;
+}
+
+
+/*** about page **/
+
+.row-1-img{
+	margin-bottom: 120px;
+}
+#our-services-heading{
+	font-size: 3.5em;
+	text-align: center;
+}
+
+/*** CONTACT PAGE ***/
+.contact-page-div{
+	margin-top: 45%;
+}
+.contact-row{
+	margin-bottom: 150px;
+}
+.contact-page-div h2{
+	font-size: 3.7em;
+	font-family: 'Righteous', cursive;
+}
+.contact-page-div p{
+	font-size: 1.8em;
+	font-family: 'Source Code Pro', monospace;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.contact-page-div a{
+	font-size: 1.7em;
+	text-decoration: none;
+	color: white;
+}
+.contact-page-div a:hover{
+	opacity: .7;
+}
+.contact-page-div strong{
+	font-size: 1.3em;
+}
+
+.card-body a:hover{
+	opacity: .7;
+}
